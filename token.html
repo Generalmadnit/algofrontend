@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topic Listing Contact Page</title>
+        <title>Dave Tokenize</title>
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,9 +77,9 @@ https://templatemo.com/tm-590-topic-listing
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                                     <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
 
-                                    <li><a class="dropdown-item active" href="contact.html">Contact Form</a></li>
-                                    
-                                    <li><a class="dropdown-item" href="token.html">Tokenize</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
+
+                                    <li><a class="dropdown-item active" href="token.html">Tokenize</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -101,7 +101,7 @@ https://templatemo.com/tm-590-topic-listing
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
 
-                                    <li class="breadcrumb-item active" aria-current="page">Contact Form</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Tokenize form</li>
                                 </ol>
                             </nav>
 
@@ -118,56 +118,28 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="mb-4 pb-2">We'd love to hear from you</h3>
+                            <h3 class="mb-4 pb-2">We'd love to see you tokenize your bill</h3>
+                            <br>
+                            <p>Upload your bill and see the resultant magic Terms & Conditions apply.</p>
                         </div>
 
-                        <div class="col-lg-6 col-12">
-                            <form action="#" method="post" class="custom-form contact-form" role="form">
+                        <div class="col-lg-12 col-12">
+                            <div class="custom-form contact-form" >
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-floating">
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
-                                            
-                                            <label for="floatingInput">Name</label>
+                                    <div class="upper col-lg-12 col-12">
+                                        <input type="file">
+                                        <button id="gettext">Start</button>
+                                        <div class="progress col-lg-6 w-25"></div>
+                                    </div>
+                                    <div class="bottom row">
+                                        <div>
+                                            <img src="" class="col-lg-4" id="uploaded">
+                                            <textarea class="col-lg-4 h-75"></textarea>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6 col-md-6 col-12"> 
-                                        <div class="form-floating">
-                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-                                            
-                                            <label for="floatingInput">Email address</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <div class="form-floating">
-                                            <input type="text" name="subject" id="name" class="form-control" placeholder="Name" required="">
-                                            
-                                            <label for="floatingInput">Subject</label>
-                                        </div>
-
-                                        <div class="form-floating">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
-                                            
-                                            <label for="floatingTextarea">Tell me about the project</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 ms-auto">
-                                        <button type="submit" class="form-control">Submit</button>
-                                    </div>
-
                                 </div>
-                            </form>
-                        </div>
-
-                        <div class="col-lg-5 col-12 mx-auto mt-5 mt-lg-0">
-                            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.065641062665!2d-122.4230416990949!3d37.80335401520422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858127459fabad%3A0x808ba520e5e9edb7!2sFrancisco%20Park!5e1!3m2!1sen!2sth!4v1684340239744!5m2!1sen!2sth" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                            <h5 class="mt-4 mb-2">Topic Listing Center</h5>
-
-                            <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                                
+                            </div>
                         </div>
 
                     </div>
@@ -181,8 +153,8 @@ https://templatemo.com/tm-590-topic-listing
 
                     <div class="col-lg-3 col-12 mb-4 pb-2">
                         <a class="navbar-brand mb-2" href="index.html">
-                            <i class="bi-back"></i>
-                            <span>Topic</span>
+                            <img src="./images/favicon.png" alt="logo" class="img" id="logo" style="height: 5vh; width: 3vw;">
+                            <span>Dave</span>
                         </a>
                     </div>
 
@@ -225,21 +197,9 @@ https://templatemo.com/tm-590-topic-listing
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            English</button>
-
-                            <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">Thai</button></li>
-
-                                <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                                <li><button class="dropdown-item" type="button">Arabic</button></li>
-                            </ul>
-                        </div>
-
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                        
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2023 KINTSUGI. All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="#" target="_blank">KINTSUGI & CO.</a></p>
                         
                     </div>
 
@@ -252,6 +212,8 @@ https://templatemo.com/tm-590-topic-listing
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/custom.js"></script>
+        <script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.13/dist/tesseract.min.js"></script>
+        <script src="js/script.js"></script>
 
     </body>
 </html>
